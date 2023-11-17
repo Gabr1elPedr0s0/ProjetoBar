@@ -1,0 +1,108 @@
+
+*{
+    text-decoration: none;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    background-color: #007BFF;
+    border-bottom: 2px solid #000;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+}
+
+/* Estilo do carrossel */
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo dos botões do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007BFF;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo do botão de busca */
+.btn.bg-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.btn.bg-black:hover {
+    background-color: #222;
+}
+
+/* Estilos para os cards */
+.card {
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.card-text{
+    font-size: 17px;
+}
+
+/* Estilos para o título principal */
+.mainh1 {
+    font-size: 34px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para os cards dentro do contêiner flexível */
+.d-flex.flex-row.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
